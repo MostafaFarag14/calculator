@@ -24,7 +24,7 @@ class App extends React.Component {
     else{this.setState({result: this.state.result.concat(num)})}
 
     if(num === '='){
-      this.setState({result: this.evaluate().toString(), evaluated: true})
+      this.setState({result: this.evaluate().toString()})
     }
 
     if(num === 'C'){
