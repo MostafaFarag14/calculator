@@ -1,3 +1,6 @@
+## View deployed app
+https://mostafafarag14.github.io/calculator/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
