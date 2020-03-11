@@ -41,6 +41,7 @@ class App extends React.Component {
       <div className="App container my-5 mx-auto w-25 shadow-lg" >
         <Result result={this.state.result}/>
         <Num onclick={this.getClicked}/>
+        <footer className="fixed-bottom mb-4"><a href="https://github.com/MostafaFarag14/calculator">Source Code</a></footer>
       </div>
     );
   }
