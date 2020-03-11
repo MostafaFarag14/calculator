@@ -38,7 +38,7 @@ class App extends React.Component {
   }
   render(){
     return (
-      <div className="App container my-5 mx-auto w-25 shadow-sm" >
+      <div className="App container my-5 mx-auto w-25 shadow-lg" >
         <Result result={this.state.result}/>
         <Num onclick={this.getClicked}/>
       </div>
